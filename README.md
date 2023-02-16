@@ -27,10 +27,10 @@ The code is modularized into the following methods:
 Example Usage
 makefile
 Copy code
-# Initialize object with file locations
+## Initialize object with file locations
 obj1 = tweets_sentiment_analysis("slurs.csv", "tweets.csv")
 
-# Analyze all tweets and output degree of profanity for each sentence
+## Analyze all tweets and output degree of profanity for each sentence
 obj1.analysis_all_tweets()
-Conclusion
+## Conclusion
 This program provides a simple yet effective way to analyze Twitter tweets for profanity by detecting racial slurs in the text. By using pandas dataframes, the program is able to efficiently process large volumes of data. The code can be easily extended to include other types of profanity detection by modifying the get_profanity_degree method.
